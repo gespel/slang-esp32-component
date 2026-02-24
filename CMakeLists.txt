@@ -18,8 +18,13 @@ idf_component_register(
         "Slang/modules/oscillators/src/terrain.c"
         "Slang/modules/oscillators/src/triangle.c"
         "Slang/modules/oscillators/src/wavetable.c"
+        "Slang/modules/oscillators/src/random.c"
         "Slang/modules/sample-source/src/sample_source.c"
         "Slang/modules/stepsequencer/src/stepsequencer.c"
+        "Slang/modules/reverb/src/reverb.c"
+        "Slang/modules/reverb/src/springreverb.c"
+        "Slang/modules/modifier/src/modifier.c"
+        "Slang/modules/filters/src/filter.c"
     INCLUDE_DIRS
         "Slang/core/include"
         "Slang"
@@ -31,4 +36,5 @@ idf_component_register(
         "Slang/modules/oscillators/include"
         "Slang/modules/sample-source/include"
         "Slang/modules/stepsequencer/include"
+        "Slang/modules/reverb/include"
 )
